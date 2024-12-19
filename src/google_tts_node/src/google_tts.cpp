@@ -13,7 +13,7 @@ public:
 private:
     void synthesizeSpeech(const std_msgs::msg::String::SharedPtr msg) {
         // TTS script
-        std::string command = "python3 ~/df_ws/src/google_tts_node/scripts/tts_inference.py \"" + msg->data + "\" ~/df_ws/src/google_tts_node/output/output.wav";
+        std::string command = "python3 ~/df_ws/src/google_tts_node/scripts/tts_inference.py \"" + msg->data + "\" ~/df_ws/src/google_tts_node/output/docker_output.wav";
         int ret_code = system(command.c_str());
 
         if (ret_code != 0) {
