@@ -1,0 +1,67 @@
+[0.378s] Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake /home/amenephous/df_ws/src/decision_maker_node -DCMAKE_INSTALL_PREFIX=/home/amenephous/df_ws/install/decision_maker_node
+[1.789s] -- The C compiler identification is GNU 11.4.0
+[2.261s] -- The CXX compiler identification is GNU 11.4.0
+[2.266s] -- Detecting C compiler ABI info
+[3.500s] -- Detecting C compiler ABI info - done
+[3.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.506s] -- Detecting C compile features
+[3.506s] -- Detecting C compile features - done
+[3.511s] -- Detecting CXX compiler ABI info
+[4.598s] -- Detecting CXX compiler ABI info - done
+[4.608s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.608s] -- Detecting CXX compile features
+[4.609s] -- Detecting CXX compile features - done
+[4.611s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.753s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.840s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.885s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.891s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.899s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.974s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.979s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.001s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.009s] -- Looking for pthread.h
+[5.814s] -- Looking for pthread.h - found
+[5.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.810s] -- Found Threads: TRUE  
+[6.914s] -- Configuring done
+[6.921s] -- Generating done
+[7.734s] -- Build files have been written to: /home/amenephous/df_ws/build/decision_maker_node
+[7.739s] Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake /home/amenephous/df_ws/src/decision_maker_node -DCMAKE_INSTALL_PREFIX=/home/amenephous/df_ws/install/decision_maker_node
+[7.742s] Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/decision_maker_node -- -j8 -l8
+[7.786s] [ 50%] [32mBuilding CXX object CMakeFiles/decision_maker.dir/src/decision_maker.cpp.o[0m
+[10.443s] [01m[K/home/amenephous/df_ws/src/decision_maker_node/src/decision_maker.cpp:[m[K In member function ‘[01m[Kstd::string DecisionMakerNode::selectResponse(const string&, const string&, const string&)[m[K’:
+[10.443s] [01m[K/home/amenephous/df_ws/src/decision_maker_node/src/decision_maker.cpp:33:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.443s]    33 | ctResponse(const std::string &response1, [01;35m[Kconst std::string &response2[m[K, const std::string &response3) {
+[10.443s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[10.444s] 
+[10.444s] [01m[K/home/amenephous/df_ws/src/decision_maker_node/src/decision_maker.cpp:33:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.444s]    33 | response1, const std::string &response2, [01;35m[Kconst std::string &response3[m[K) {
+[10.444s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[10.444s] 
+[22.112s] [100%] [32m[1mLinking CXX executable decision_maker[0m
+[23.675s] [100%] Built target decision_maker
+[24.175s] Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/decision_maker_node -- -j8 -l8
+[24.209s] Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/decision_maker_node
+[24.216s] -- Install configuration: ""
+[24.216s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/decision_maker
+[24.217s] -- Set runtime path of "/home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/decision_maker" to ""
+[24.217s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/package_run_dependencies/decision_maker_node
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/parent_prefix_path/decision_maker_node
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/ament_prefix_path.sh
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/ament_prefix_path.dsv
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/path.sh
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/path.dsv
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.bash
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.sh
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.zsh
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.dsv
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.dsv
+[24.218s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/packages/decision_maker_node
+[24.219s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/cmake/decision_maker_nodeConfig.cmake
+[24.219s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/cmake/decision_maker_nodeConfig-version.cmake
+[24.219s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.xml
+[24.220s] Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/decision_maker_node

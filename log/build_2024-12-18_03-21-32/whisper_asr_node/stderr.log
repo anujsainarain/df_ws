@@ -1,0 +1,11 @@
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kvoid WhisperASRNode::processAudio()[m[K’:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:23:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwhisper_context* whisper_init_from_file(const char*)[m[K’ is deprecated: use whisper_init_from_file_with_params instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   23 |         struct whisper_context *ctx = [01;35m[Kwhisper_init_from_file(model_path.c_str())[m[K;
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:3[m[K:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:206:46:[m[K [01;36m[Knote: [m[Kdeclared here
+  206 |         WHISPER_API struct whisper_context * [01;36m[Kwhisper_init_from_file[m[K(const char * path_model),
+      |                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:12:44:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KWHISPER_DEPRECATED[m[K’
+   12 | #    define WHISPER_DEPRECATED(func, hint) [01;36m[Kfunc[m[K __attribute__((deprecated(hint)))
+      |                                            [01;36m[K^~~~[m[K

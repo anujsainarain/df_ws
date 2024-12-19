@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[0.050s] [ 38%] Built target ggml-base
+[0.068s] [ 71%] Built target ggml-cpu
+[0.087s] [ 80%] Built target ggml
+[0.102s] [ 90%] Built target whisper
+[0.120s] [ 95%] [32mBuilding CXX object CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o[0m
+[2.035s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kvoid WhisperASRNode::processAudio()[m[K’:
+[2.035s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:28:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwhisper_context* whisper_init_from_file(const char*)[m[K’ is deprecated: use whisper_init_from_file_with_params instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.035s]    28 |         struct whisper_context *ctx = [01;35m[Kwhisper_init_from_file(model_path.c_str())[m[K;
+[2.035s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.035s] In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:6[m[K:
+[2.035s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:206:46:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.035s]   206 |         WHISPER_API struct whisper_context * [01;36m[Kwhisper_init_from_file[m[K(const char * path_model),
+[2.035s]       |                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.035s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:12:44:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KWHISPER_DEPRECATED[m[K’
+[2.035s]    12 | #    define WHISPER_DEPRECATED(func, hint) [01;36m[Kfunc[m[K __attribute__((deprecated(hint)))
+[2.035s]       |                                            [01;36m[K^~~~[m[K
+[2.045s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.045s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[2.045s]   103 |     [01;31m[Knode[m[K->set_parameter(model_path_param);
+[2.045s]       |     [01;31m[K^~~~[m[K
+[2.764s] gmake[2]: *** [CMakeFiles/whisper_asr.dir/build.make:76: CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o] Error 1
+[2.764s] gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/whisper_asr.dir/all] Error 2
+[2.765s] gmake: *** [Makefile:146: all] Error 2
+[2.766s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8

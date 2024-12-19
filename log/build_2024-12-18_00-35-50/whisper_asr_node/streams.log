@@ -1,0 +1,23 @@
+[1.035s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[1.091s] [35m[1mConsolidate compiler generated dependencies of target whisper_asr[0m
+[1.102s] [100%] Built target whisper_asr
+[1.111s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[1.134s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/whisper_asr_node
+[1.139s] -- Install configuration: ""
+[1.139s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr
+[1.139s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/package_run_dependencies/whisper_asr_node
+[1.139s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/parent_prefix_path/whisper_asr_node
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.sh
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.dsv
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.sh
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.dsv
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.bash
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.sh
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.zsh
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.dsv
+[1.140s] -- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/packages/whisper_asr_node
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig.cmake
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig-version.cmake
+[1.140s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.xml
+[1.694s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/whisper_asr_node

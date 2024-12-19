@@ -1,0 +1,5 @@
+[ 38%] Built target ggml-base
+[ 71%] Built target ggml-cpu
+[ 80%] Built target ggml
+[ 90%] Built target whisper
+[ 95%] [32mBuilding CXX object CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o[0m

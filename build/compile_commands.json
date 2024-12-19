@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-alloc.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-alloc.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-backend.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-backend.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-opt.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-opt.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-threading.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-threading.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-quants.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-quants.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -std=gnu11 -o CMakeFiles/ggml-base.dir/ggml-aarch64.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-aarch64.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-aarch64.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/.. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -std=gnu11 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/.. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/.. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -std=gnu11 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/.. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -std=gnu11 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/.. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/amx/amx.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/.. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -std=gnu++17 -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-cpu/amx/mmq.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wmissing-declarations -Wmissing-noreturn -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -std=gnu++17 -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-backend-reg.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/ggml-backend-reg.cpp"
+},
+{
+  "directory": "/home/amenephous/df_ws/build/whisper_asr_node/whisper_cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DWHISPER_BUILD -DWHISPER_SHARED -Dwhisper_EXPORTS -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/. -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include -I/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/whisper.dir/whisper.cpp.o -c /home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/whisper.cpp",
+  "file": "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/whisper.cpp"
+}
+]

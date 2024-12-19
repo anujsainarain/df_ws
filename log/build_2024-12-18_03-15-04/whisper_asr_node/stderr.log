@@ -1,0 +1,56 @@
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/whisper.cpp:201:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kggml_tensor* ggml_mul_mat_pad(ggml_context*, ggml_tensor*, ggml_tensor*, int)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  201 | static struct ggml_tensor * [01;35m[Kggml_mul_mat_pad[m[K(struct ggml_context * ctx, struct ggml_tensor * x, struct ggml_tensor * y, int pad = 32) {
+      |                             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kvoid WhisperASRNode::processAudio()[m[K’:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:23:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwhisper_context* whisper_init(whisper_model_loader*)[m[K’ is deprecated: use whisper_init_with_params instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   23 |         struct whisper_context *ctx = [01;35m[Kwhisper_init(model_path.c_str())[m[K;
+      |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:3[m[K:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:214:46:[m[K [01;36m[Knote: [m[Kdeclared here
+  214 |         WHISPER_API struct whisper_context * [01;36m[Kwhisper_init[m[K(struct whisper_model_loader * loader),
+      |                                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:12:44:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KWHISPER_DEPRECATED[m[K’
+   12 | #    define WHISPER_DEPRECATED(func, hint) [01;36m[Kfunc[m[K __attribute__((deprecated(hint)))
+      |                                            [01;36m[K^~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:23:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwhisper_context* whisper_init(whisper_model_loader*)[m[K’ is deprecated: use whisper_init_with_params instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   23 |         struct whisper_context *ctx = [01;35m[Kwhisper_init(model_path.c_str())[m[K;
+      |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:3[m[K:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:214:46:[m[K [01;36m[Knote: [m[Kdeclared here
+  214 |         WHISPER_API struct whisper_context * [01;36m[Kwhisper_init[m[K(struct whisper_model_loader * loader),
+      |                                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:12:44:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KWHISPER_DEPRECATED[m[K’
+   12 | #    define WHISPER_DEPRECATED(func, hint) [01;36m[Kfunc[m[K __attribute__((deprecated(hint)))
+      |                                            [01;36m[K^~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:23:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kwhisper_model_loader*[m[K’
+   23 |         struct whisper_context *ctx = whisper_init([01;31m[Kmodel_path.c_str()[m[K);
+      |                                                    [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+      |                                                                    [01;31m[K|[m[K
+      |                                                                    [01;31m[Kconst char*[m[K
+In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:3[m[K:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:214:89:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kwhisper_context* whisper_init(whisper_model_loader*)[m[K’
+  214 | t whisper_context * whisper_init([01;36m[Kstruct whisper_model_loader * loader[m[K),
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:12:44:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KWHISPER_DEPRECATED[m[K’
+   12 | #    define WHISPER_DEPRECATED(func, hint) [01;36m[Kfunc[m[K __attribute__((deprecated(hint)))
+      |                                            [01;36m[K^~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kbool WhisperASRNode::load_audio(const string&, std::vector<float>&)[m[K’:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:49:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpath[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 |     bool load_audio([01;35m[Kconst std::string &path[m[K, std::vector<float> &audio_data) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:49:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaudio_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | ool load_audio(const std::string &path, [01;35m[Kstd::vector<float> &audio_data[m[K) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kstd::string WhisperASRNode::run_transcription(whisper_context*, const std::vector<float>&)[m[K’:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kctx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 |     std::string run_transcription([01;35m[Kwhisper_context *ctx[m[K, const std::vector<float> &audio_data) {
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaudio_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 | anscription(whisper_context *ctx, [01;35m[Kconst std::vector<float> &audio_data[m[K) {
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/whisper_asr.dir/build.make:76: CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/whisper_asr.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

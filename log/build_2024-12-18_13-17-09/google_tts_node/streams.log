@@ -1,0 +1,25 @@
+[0.062s] Invoking command in '/home/amenephous/df_ws/build/google_tts_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/google_tts_node -- -j8 -l8
+[0.669s] [ 50%] [32mBuilding CXX object CMakeFiles/google_tts.dir/src/google_tts.cpp.o[0m
+[7.154s] [100%] [32m[1mLinking CXX executable google_tts[0m
+[7.487s] [100%] Built target google_tts
+[7.495s] Invoked command in '/home/amenephous/df_ws/build/google_tts_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/google_tts_node -- -j8 -l8
+[7.512s] Invoking command in '/home/amenephous/df_ws/build/google_tts_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/google_tts_node
+[7.518s] -- Install configuration: ""
+[7.593s] -- Installing: /home/amenephous/df_ws/install/google_tts_node/lib/google_tts_node/google_tts
+[7.601s] -- Set runtime path of "/home/amenephous/df_ws/install/google_tts_node/lib/google_tts_node/google_tts" to ""
+[7.601s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/ament_index/resource_index/package_run_dependencies/google_tts_node
+[7.602s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/ament_index/resource_index/parent_prefix_path/google_tts_node
+[7.602s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/ament_prefix_path.sh
+[7.603s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/ament_prefix_path.dsv
+[7.603s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/path.sh
+[7.604s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/path.dsv
+[7.604s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.bash
+[7.604s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.sh
+[7.604s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.zsh
+[7.605s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.dsv
+[7.605s] -- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.dsv
+[7.605s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/ament_index/resource_index/packages/google_tts_node
+[7.606s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/cmake/google_tts_nodeConfig.cmake
+[7.606s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/cmake/google_tts_nodeConfig-version.cmake
+[7.606s] -- Up-to-date: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.xml
+[7.612s] Invoked command in '/home/amenephous/df_ws/build/google_tts_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/google_tts_node

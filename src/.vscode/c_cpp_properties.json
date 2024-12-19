@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/amenephous/ros2_ws/install/text_to_speech_msgs/include/**",
+        "/home/amenephous/ros2_ws/install/simple_node/include/**",
+        "/home/amenephous/ros2_ws/install/llama_ros/include/**",
+        "/home/amenephous/ros2_ws/install/llama_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/amenephous/df_ws/src/whisper_asr_node/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

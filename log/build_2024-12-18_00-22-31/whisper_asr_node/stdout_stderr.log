@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target whisper_asr[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o[0m
+[100%] [32m[1mLinking CXX executable whisper_asr[0m
+[100%] Built target whisper_asr
+-- Install configuration: ""
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr
+-- Set runtime path of "/home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr" to ""
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/package_run_dependencies/whisper_asr_node
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/parent_prefix_path/whisper_asr_node
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.sh
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.dsv
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.sh
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.dsv
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.bash
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.sh
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.zsh
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.dsv
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/packages/whisper_asr_node
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig.cmake
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig-version.cmake
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.xml

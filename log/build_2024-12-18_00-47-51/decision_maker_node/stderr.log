@@ -1,0 +1,9 @@
+[01m[K/home/amenephous/df_ws/src/decision_maker_node/src/decision_maker.cpp:[m[K In member function ‘[01m[Kstd::string DecisionMakerNode::selectResponse(const string&, const string&, const string&)[m[K’:
+[01m[K/home/amenephous/df_ws/src/decision_maker_node/src/decision_maker.cpp:33:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   33 | ctResponse(const std::string &response1, [01;35m[Kconst std::string &response2[m[K, const std::string &response3) {
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/amenephous/df_ws/src/decision_maker_node/src/decision_maker.cpp:33:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   33 | response1, const std::string &response2, [01;35m[Kconst std::string &response3[m[K) {
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+

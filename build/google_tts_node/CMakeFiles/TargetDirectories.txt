@@ -1,0 +1,10 @@
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/uninstall.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/google_tts_node_uninstall.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/google_tts.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/test.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/edit_cache.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/rebuild_cache.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/list_install_components.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/install.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/install/local.dir
+/home/amenephous/df_ws/build/google_tts_node/CMakeFiles/install/strip.dir

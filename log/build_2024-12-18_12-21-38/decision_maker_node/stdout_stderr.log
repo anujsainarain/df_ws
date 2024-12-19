@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/decision_maker.dir/src/decision_maker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable decision_maker[0m
+[100%] Built target decision_maker
+-- Install configuration: ""
+-- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/decision_maker
+-- Set runtime path of "/home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/decision_maker" to ""
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/scripts
+-- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/scripts/llm_inference.py
+-- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/scripts/llm_inference2.py
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/package_run_dependencies/decision_maker_node
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/parent_prefix_path/decision_maker_node
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/path.sh
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/path.dsv
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.bash
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.sh
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.zsh
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.dsv
+-- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.dsv
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/packages/decision_maker_node
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/cmake/decision_maker_nodeConfig.cmake
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/cmake/decision_maker_nodeConfig-version.cmake
+-- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.xml

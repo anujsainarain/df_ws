@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (google_tts_node) JobQueued: {'identifier': 'google_tts_node', 'dependencies': OrderedDict()}
+[0.000322] (whisper_asr_node) JobQueued: {'identifier': 'whisper_asr_node', 'dependencies': OrderedDict()}
+[0.000339] (google_tts_node) JobStarted: {'identifier': 'google_tts_node'}
+[0.006164] (whisper_asr_node) JobStarted: {'identifier': 'whisper_asr_node'}
+[0.099903] (-) TimerEvent: {}
+[0.200444] (-) TimerEvent: {}
+[0.301030] (-) TimerEvent: {}
+[0.387585] (google_tts_node) JobProgress: {'identifier': 'google_tts_node', 'progress': 'cmake'}
+[0.388918] (google_tts_node) Command: {'cmd': ['/usr/bin/cmake', '/home/amenephous/df_ws/src/google_tts_node', '-DCMAKE_INSTALL_PREFIX=/home/amenephous/df_ws/install/google_tts_node'], 'cwd': '/home/amenephous/df_ws/build/google_tts_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amenephous'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amenephous/ros2_ws/install/text_to_speech_msgs/lib:/home/amenephous/ros2_ws/install/simple_node/lib:/home/amenephous/ros2_ws/install/llama_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amenephous'), ('OLDPWD', '/home/amenephous/df_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amenephous/df_ws/install:/home/amenephous/selfdrive_ws/install:/home/amenephous/ros2_ws/install:/home/amenephous/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amenephous'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amenephous'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amenephous/ros2_ws/install/llama_ros/bin:/opt/ros/humble/bin:/home/amenephous/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amenephous-ubuntu:@/tmp/.ICE-unix/2109,unix/amenephous-ubuntu:/tmp/.ICE-unix/2109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d51b2c3b_e7e4_4cb4_ba96_86bcfc4160eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F7GFZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/text_to_speech:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amenephous/df_ws/build/google_tts_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amenephous/selfdrive_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/text_to_speech_msgs/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/simple_node/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_bringup/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_ros/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble')]), 'shell': False}
+[0.401133] (-) TimerEvent: {}
+[0.501661] (-) TimerEvent: {}
+[0.602183] (-) TimerEvent: {}
+[0.702739] (-) TimerEvent: {}
+[0.803275] (-) TimerEvent: {}
+[0.903834] (-) TimerEvent: {}
+[1.031383] (whisper_asr_node) JobProgress: {'identifier': 'whisper_asr_node', 'progress': 'cmake'}
+[1.031527] (-) TimerEvent: {}
+[1.033910] (whisper_asr_node) JobProgress: {'identifier': 'whisper_asr_node', 'progress': 'build'}
+[1.037595] (whisper_asr_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amenephous/df_ws/build/whisper_asr_node', '--', '-j8', '-l8'], 'cwd': '/home/amenephous/df_ws/build/whisper_asr_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amenephous'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amenephous/ros2_ws/install/text_to_speech_msgs/lib:/home/amenephous/ros2_ws/install/simple_node/lib:/home/amenephous/ros2_ws/install/llama_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amenephous'), ('OLDPWD', '/home/amenephous/df_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amenephous/df_ws/install:/home/amenephous/selfdrive_ws/install:/home/amenephous/ros2_ws/install:/home/amenephous/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amenephous'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amenephous'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amenephous/ros2_ws/install/llama_ros/bin:/opt/ros/humble/bin:/home/amenephous/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amenephous-ubuntu:@/tmp/.ICE-unix/2109,unix/amenephous-ubuntu:/tmp/.ICE-unix/2109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d51b2c3b_e7e4_4cb4_ba96_86bcfc4160eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F7GFZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/text_to_speech:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amenephous/df_ws/build/whisper_asr_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amenephous/selfdrive_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/text_to_speech_msgs/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/simple_node/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_bringup/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_ros/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble')]), 'shell': False}
+[1.096906] (whisper_asr_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target whisper_asr\x1b[0m\n'}
+[1.108049] (whisper_asr_node) StdoutLine: {'line': b'[100%] Built target whisper_asr\n'}
+[1.117932] (whisper_asr_node) CommandEnded: {'returncode': 0}
+[1.131578] (-) TimerEvent: {}
+[1.133867] (whisper_asr_node) JobProgress: {'identifier': 'whisper_asr_node', 'progress': 'install'}
+[1.140082] (whisper_asr_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amenephous/df_ws/build/whisper_asr_node'], 'cwd': '/home/amenephous/df_ws/build/whisper_asr_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amenephous'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amenephous/ros2_ws/install/text_to_speech_msgs/lib:/home/amenephous/ros2_ws/install/simple_node/lib:/home/amenephous/ros2_ws/install/llama_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amenephous'), ('OLDPWD', '/home/amenephous/df_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amenephous/df_ws/install:/home/amenephous/selfdrive_ws/install:/home/amenephous/ros2_ws/install:/home/amenephous/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amenephous'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amenephous'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amenephous/ros2_ws/install/llama_ros/bin:/opt/ros/humble/bin:/home/amenephous/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amenephous-ubuntu:@/tmp/.ICE-unix/2109,unix/amenephous-ubuntu:/tmp/.ICE-unix/2109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d51b2c3b_e7e4_4cb4_ba96_86bcfc4160eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F7GFZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/text_to_speech:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amenephous/df_ws/build/whisper_asr_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amenephous/selfdrive_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/text_to_speech_msgs/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/simple_node/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_bringup/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_ros/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble')]), 'shell': False}
+[1.145646] (whisper_asr_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.145790] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr\n'}
+[1.145910] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/package_run_dependencies/whisper_asr_node\n'}
+[1.146016] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/parent_prefix_path/whisper_asr_node\n'}
+[1.146145] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.sh\n'}
+[1.146224] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.dsv\n'}
+[1.146298] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.sh\n'}
+[1.146372] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.dsv\n'}
+[1.146447] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.bash\n'}
+[1.146547] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.sh\n'}
+[1.146660] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.zsh\n'}
+[1.146717] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.dsv\n'}
+[1.146764] (whisper_asr_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv\n'}
+[1.146808] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/packages/whisper_asr_node\n'}
+[1.146852] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig.cmake\n'}
+[1.146895] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig-version.cmake\n'}
+[1.146939] (whisper_asr_node) StdoutLine: {'line': b'-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.xml\n'}
+[1.231735] (-) TimerEvent: {}
+[1.332305] (-) TimerEvent: {}
+[1.432885] (-) TimerEvent: {}
+[1.533419] (-) TimerEvent: {}
+[1.633954] (-) TimerEvent: {}
+[1.698959] (whisper_asr_node) CommandEnded: {'returncode': 0}
+[1.701086] (google_tts_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.734093] (-) TimerEvent: {}
+[1.834530] (-) TimerEvent: {}
+[1.935142] (-) TimerEvent: {}
+[2.035835] (-) TimerEvent: {}
+[2.136379] (-) TimerEvent: {}
+[2.236921] (-) TimerEvent: {}
+[2.337459] (-) TimerEvent: {}
+[2.438018] (-) TimerEvent: {}
+[2.538593] (-) TimerEvent: {}
+[2.724147] (google_tts_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.724463] (-) TimerEvent: {}
+[2.733360] (google_tts_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.824681] (-) TimerEvent: {}
+[2.925302] (-) TimerEvent: {}
+[3.025862] (-) TimerEvent: {}
+[3.126388] (-) TimerEvent: {}
+[3.226960] (-) TimerEvent: {}
+[3.327477] (-) TimerEvent: {}
+[3.427839] (-) TimerEvent: {}
+[3.528392] (-) TimerEvent: {}
+[3.629003] (-) TimerEvent: {}
+[3.729590] (-) TimerEvent: {}
+[3.830150] (-) TimerEvent: {}
+[4.010907] (-) TimerEvent: {}
+[4.111505] (-) TimerEvent: {}
+[4.212096] (-) TimerEvent: {}
+[4.312665] (-) TimerEvent: {}
+[4.413228] (-) TimerEvent: {}
+[4.514030] (-) TimerEvent: {}
+[4.565142] (whisper_asr_node) JobEnded: {'identifier': 'whisper_asr_node', 'rc': 0}
+[5.114118] (-) TimerEvent: {}
+[5.114513] (google_tts_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.114899] (google_tts_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.115145] (google_tts_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.115370] (google_tts_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.115615] (google_tts_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.196231] (google_tts_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.202897] (google_tts_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.203117] (google_tts_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.203471] (google_tts_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.206067] (google_tts_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.214559] (-) TimerEvent: {}
+[5.315574] (-) TimerEvent: {}
+[5.344983] (google_tts_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.415663] (-) TimerEvent: {}
+[5.426699] (google_tts_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.468520] (google_tts_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.473798] (google_tts_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.481233] (google_tts_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.492128] (google_tts_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.506960] (google_tts_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.515744] (-) TimerEvent: {}
+[5.550246] (google_tts_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.553875] (google_tts_node) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[5.576497] (google_tts_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[5.584856] (google_tts_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.615842] (-) TimerEvent: {}
+[5.716398] (-) TimerEvent: {}
+[5.817567] (-) TimerEvent: {}
+[5.918074] (-) TimerEvent: {}
+[6.018661] (-) TimerEvent: {}
+[6.119217] (-) TimerEvent: {}
+[6.219773] (-) TimerEvent: {}
+[6.334890] (-) TimerEvent: {}
+[6.435429] (-) TimerEvent: {}
+[6.536002] (-) TimerEvent: {}
+[6.636541] (-) TimerEvent: {}
+[6.737126] (-) TimerEvent: {}
+[6.825294] (google_tts_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.825897] (google_tts_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.837230] (-) TimerEvent: {}
+[6.937618] (-) TimerEvent: {}
+[7.038111] (-) TimerEvent: {}
+[7.138665] (-) TimerEvent: {}
+[7.239152] (-) TimerEvent: {}
+[7.339694] (-) TimerEvent: {}
+[7.558469] (-) TimerEvent: {}
+[7.659200] (-) TimerEvent: {}
+[7.760595] (-) TimerEvent: {}
+[7.861176] (-) TimerEvent: {}
+[7.961676] (-) TimerEvent: {}
+[7.993456] (google_tts_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.994584] (google_tts_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.061736] (-) TimerEvent: {}
+[8.103525] (google_tts_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.110877] (google_tts_node) StdoutLine: {'line': b'-- Generating done\n'}
+[8.161936] (-) TimerEvent: {}
+[8.262639] (-) TimerEvent: {}
+[8.277279] (google_tts_node) StdoutLine: {'line': b'-- Build files have been written to: /home/amenephous/df_ws/build/google_tts_node\n'}
+[8.295873] (google_tts_node) CommandEnded: {'returncode': 0}
+[8.297643] (google_tts_node) JobProgress: {'identifier': 'google_tts_node', 'progress': 'build'}
+[8.299296] (google_tts_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amenephous/df_ws/build/google_tts_node', '--', '-j8', '-l8'], 'cwd': '/home/amenephous/df_ws/build/google_tts_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amenephous'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amenephous/ros2_ws/install/text_to_speech_msgs/lib:/home/amenephous/ros2_ws/install/simple_node/lib:/home/amenephous/ros2_ws/install/llama_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amenephous'), ('OLDPWD', '/home/amenephous/df_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amenephous/df_ws/install:/home/amenephous/selfdrive_ws/install:/home/amenephous/ros2_ws/install:/home/amenephous/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amenephous'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amenephous'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amenephous/ros2_ws/install/llama_ros/bin:/opt/ros/humble/bin:/home/amenephous/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amenephous-ubuntu:@/tmp/.ICE-unix/2109,unix/amenephous-ubuntu:/tmp/.ICE-unix/2109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d51b2c3b_e7e4_4cb4_ba96_86bcfc4160eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F7GFZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/text_to_speech:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amenephous/df_ws/build/google_tts_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amenephous/selfdrive_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/text_to_speech_msgs/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/simple_node/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_bringup/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_ros/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble')]), 'shell': False}
+[8.362733] (-) TimerEvent: {}
+[8.400960] (google_tts_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/google_tts.dir/src/google_tts.cpp.o\x1b[0m\n'}
+[8.462845] (-) TimerEvent: {}
+[8.563048] (-) TimerEvent: {}
+[8.663268] (-) TimerEvent: {}
+[8.763499] (-) TimerEvent: {}
+[8.863756] (-) TimerEvent: {}
+[8.963968] (-) TimerEvent: {}
+[9.064176] (-) TimerEvent: {}
+[9.164387] (-) TimerEvent: {}
+[9.264599] (-) TimerEvent: {}
+[9.364814] (-) TimerEvent: {}
+[9.465034] (-) TimerEvent: {}
+[9.565253] (-) TimerEvent: {}
+[9.665462] (-) TimerEvent: {}
+[9.765731] (-) TimerEvent: {}
+[9.865937] (-) TimerEvent: {}
+[9.966161] (-) TimerEvent: {}
+[10.154794] (-) TimerEvent: {}
+[10.255022] (-) TimerEvent: {}
+[10.355261] (-) TimerEvent: {}
+[10.455487] (-) TimerEvent: {}
+[10.555725] (-) TimerEvent: {}
+[10.655954] (-) TimerEvent: {}
+[10.756201] (-) TimerEvent: {}
+[10.856449] (-) TimerEvent: {}
+[10.956695] (-) TimerEvent: {}
+[11.056991] (-) TimerEvent: {}
+[11.157219] (-) TimerEvent: {}
+[11.393325] (-) TimerEvent: {}
+[11.493532] (-) TimerEvent: {}
+[11.593747] (-) TimerEvent: {}
+[11.693973] (-) TimerEvent: {}
+[11.794253] (-) TimerEvent: {}
+[11.894489] (-) TimerEvent: {}
+[11.994753] (-) TimerEvent: {}
+[12.095043] (-) TimerEvent: {}
+[12.195491] (-) TimerEvent: {}
+[12.296086] (-) TimerEvent: {}
+[12.396582] (-) TimerEvent: {}
+[12.497046] (-) TimerEvent: {}
+[12.660043] (-) TimerEvent: {}
+[12.760721] (-) TimerEvent: {}
+[12.861358] (-) TimerEvent: {}
+[12.961591] (-) TimerEvent: {}
+[13.061820] (-) TimerEvent: {}
+[13.162063] (-) TimerEvent: {}
+[13.262266] (-) TimerEvent: {}
+[13.362467] (-) TimerEvent: {}
+[13.462676] (-) TimerEvent: {}
+[13.562876] (-) TimerEvent: {}
+[13.663098] (-) TimerEvent: {}
+[13.763397] (-) TimerEvent: {}
+[14.210045] (-) TimerEvent: {}
+[14.310364] (-) TimerEvent: {}
+[14.411055] (-) TimerEvent: {}
+[14.511668] (-) TimerEvent: {}
+[14.612233] (-) TimerEvent: {}
+[14.712470] (-) TimerEvent: {}
+[14.812703] (-) TimerEvent: {}
+[14.912969] (-) TimerEvent: {}
+[15.013167] (-) TimerEvent: {}
+[15.113383] (-) TimerEvent: {}
+[15.213618] (-) TimerEvent: {}
+[15.314169] (-) TimerEvent: {}
+[15.508068] (-) TimerEvent: {}
+[15.608310] (-) TimerEvent: {}
+[15.708531] (-) TimerEvent: {}
+[15.808813] (-) TimerEvent: {}
+[15.909100] (-) TimerEvent: {}
+[16.009602] (-) TimerEvent: {}
+[16.110128] (-) TimerEvent: {}
+[16.210663] (-) TimerEvent: {}
+[16.311218] (-) TimerEvent: {}
+[16.411756] (-) TimerEvent: {}
+[16.512270] (-) TimerEvent: {}
+[16.612998] (-) TimerEvent: {}
+[17.322818] (-) TimerEvent: {}
+[17.423344] (-) TimerEvent: {}
+[17.523739] (-) TimerEvent: {}
+[17.624310] (-) TimerEvent: {}
+[17.724994] (-) TimerEvent: {}
+[17.825576] (-) TimerEvent: {}
+[17.926115] (-) TimerEvent: {}
+[18.026695] (-) TimerEvent: {}
+[18.127249] (-) TimerEvent: {}
+[18.227876] (-) TimerEvent: {}
+[18.328428] (-) TimerEvent: {}
+[18.428973] (-) TimerEvent: {}
+[18.529527] (-) TimerEvent: {}
+[18.835424] (-) TimerEvent: {}
+[18.935994] (-) TimerEvent: {}
+[19.036497] (-) TimerEvent: {}
+[19.136995] (-) TimerEvent: {}
+[19.237524] (-) TimerEvent: {}
+[19.338093] (-) TimerEvent: {}
+[19.438661] (-) TimerEvent: {}
+[19.539187] (-) TimerEvent: {}
+[19.639665] (-) TimerEvent: {}
+[19.740193] (-) TimerEvent: {}
+[19.840660] (-) TimerEvent: {}
+[19.941168] (-) TimerEvent: {}
+[20.041695] (-) TimerEvent: {}
+[20.142217] (-) TimerEvent: {}
+[20.242728] (-) TimerEvent: {}
+[20.343245] (-) TimerEvent: {}
+[20.443766] (-) TimerEvent: {}
+[20.544284] (-) TimerEvent: {}
+[20.644808] (-) TimerEvent: {}
+[20.745243] (-) TimerEvent: {}
+[20.845447] (-) TimerEvent: {}
+[21.064014] (-) TimerEvent: {}
+[21.083175] (google_tts_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable google_tts\x1b[0m\n'}
+[21.164151] (-) TimerEvent: {}
+[21.264866] (-) TimerEvent: {}
+[21.365710] (-) TimerEvent: {}
+[21.466396] (-) TimerEvent: {}
+[21.542800] (google_tts_node) StdoutLine: {'line': b'[100%] Built target google_tts\n'}
+[21.566575] (-) TimerEvent: {}
+[21.667101] (-) TimerEvent: {}
+[21.767658] (-) TimerEvent: {}
+[21.868194] (-) TimerEvent: {}
+[21.968693] (-) TimerEvent: {}
+[22.069248] (-) TimerEvent: {}
+[22.106892] (google_tts_node) CommandEnded: {'returncode': 0}
+[22.158658] (google_tts_node) JobProgress: {'identifier': 'google_tts_node', 'progress': 'install'}
+[22.159281] (google_tts_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amenephous/df_ws/build/google_tts_node'], 'cwd': '/home/amenephous/df_ws/build/google_tts_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amenephous'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amenephous/ros2_ws/install/text_to_speech_msgs/lib:/home/amenephous/ros2_ws/install/simple_node/lib:/home/amenephous/ros2_ws/install/llama_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amenephous'), ('OLDPWD', '/home/amenephous/df_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amenephous/df_ws/install:/home/amenephous/selfdrive_ws/install:/home/amenephous/ros2_ws/install:/home/amenephous/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amenephous'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amenephous'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amenephous/ros2_ws/install/llama_ros/bin:/opt/ros/humble/bin:/home/amenephous/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amenephous-ubuntu:@/tmp/.ICE-unix/2109,unix/amenephous-ubuntu:/tmp/.ICE-unix/2109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d51b2c3b_e7e4_4cb4_ba96_86bcfc4160eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F7GFZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/text_to_speech:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amenephous/df_ws/build/google_tts_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amenephous/selfdrive_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/text_to_speech_msgs/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/amenephous/ros2_ws/install/simple_node/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_bringup/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_ros/local/lib/python3.10/dist-packages:/home/amenephous/ros2_ws/install/llama_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amenephous/df_ws/install/whisper_asr_node:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg_models:/home/amenephous/turtlebot3_ws/install/turtlebot3_simulations:/home/amenephous/turtlebot3_ws/install/turtlebot3_gazebo:/home/amenephous/turtlebot3_ws/install/turtlebot3_fake_node:/home/amenephous/ros2_ws/install/text_to_speech_msgs:/home/amenephous/ros2_ws/install/simple_node:/home/amenephous/ros2_ws/install/llama_bringup:/home/amenephous/ros2_ws/install/llama_ros:/home/amenephous/ros2_ws/install/llama_msgs:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble')]), 'shell': False}
+[22.166303] (google_tts_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.166440] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/lib/google_tts_node/google_tts\n'}
+[22.168153] (google_tts_node) StdoutLine: {'line': b'-- Set runtime path of "/home/amenephous/df_ws/install/google_tts_node/lib/google_tts_node/google_tts" to ""\n'}
+[22.168269] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/ament_index/resource_index/package_run_dependencies/google_tts_node\n'}
+[22.168365] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/ament_index/resource_index/parent_prefix_path/google_tts_node\n'}
+[22.168492] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/ament_prefix_path.sh\n'}
+[22.168576] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/ament_prefix_path.dsv\n'}
+[22.168660] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/path.sh\n'}
+[22.168736] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/environment/path.dsv\n'}
+[22.168819] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.bash\n'}
+[22.168904] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.sh\n'}
+[22.168986] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.zsh\n'}
+[22.169063] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/local_setup.dsv\n'}
+[22.169144] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.dsv\n'}
+[22.169250] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/ament_index/resource_index/packages/google_tts_node\n'}
+[22.169300] (-) TimerEvent: {}
+[22.169398] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/cmake/google_tts_nodeConfig.cmake\n'}
+[22.169486] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/cmake/google_tts_nodeConfig-version.cmake\n'}
+[22.169554] (google_tts_node) StdoutLine: {'line': b'-- Installing: /home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.xml\n'}
+[22.170803] (google_tts_node) CommandEnded: {'returncode': 0}
+[22.269504] (-) TimerEvent: {}
+[22.370085] (-) TimerEvent: {}
+[22.470669] (-) TimerEvent: {}
+[22.571176] (-) TimerEvent: {}
+[22.671658] (-) TimerEvent: {}
+[22.772186] (-) TimerEvent: {}
+[22.872763] (-) TimerEvent: {}
+[22.973383] (-) TimerEvent: {}
+[23.073957] (-) TimerEvent: {}
+[23.174473] (-) TimerEvent: {}
+[23.274774] (-) TimerEvent: {}
+[23.301154] (google_tts_node) JobEnded: {'identifier': 'google_tts_node', 'rc': 0}
+[23.303360] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target whisper_asr[0m
+[100%] Built target whisper_asr
+-- Install configuration: ""
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/package_run_dependencies/whisper_asr_node
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/parent_prefix_path/whisper_asr_node
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.sh
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.dsv
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.bash
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.sh
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.zsh
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.dsv
+-- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/packages/whisper_asr_node
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig.cmake
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig-version.cmake
+-- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.xml

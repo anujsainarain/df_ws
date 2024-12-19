@@ -1,0 +1,4 @@
+source;share/whisper_asr_node/local_setup.bash
+source;share/whisper_asr_node/local_setup.dsv
+source;share/whisper_asr_node/local_setup.sh
+source;share/whisper_asr_node/local_setup.zsh

@@ -1,0 +1,51 @@
+[0.481s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake /home/amenephous/df_ws/src/whisper_asr_node -DCMAKE_INSTALL_PREFIX=/home/amenephous/df_ws/install/whisper_asr_node
+[65.482s] -- The C compiler identification is GNU 11.4.0
+[92.517s] -- The CXX compiler identification is GNU 11.4.0
+[100.734s] -- Detecting C compiler ABI info
+[106.850s] -- Detecting C compiler ABI info - done
+[106.879s] -- Check for working C compiler: /usr/bin/cc - skipped
+[107.304s] -- Detecting C compile features
+[107.744s] -- Detecting C compile features - done
+[108.320s] -- Detecting CXX compiler ABI info
+[111.053s] -- Detecting CXX compiler ABI info - done
+[111.059s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[111.060s] -- Detecting CXX compile features
+[111.060s] -- Detecting CXX compile features - done
+[118.794s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[127.259s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[156.430s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[189.802s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[191.276s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[201.624s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[212.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[213.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[246.828s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[249.899s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[266.734s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[274.563s] -- Looking for pthread.h
+[275.976s] -- Looking for pthread.h - found
+[275.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[277.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[277.476s] -- Found Threads: TRUE  
+[305.763s] -- Configuring done
+[305.772s] -- Generating done
+[306.263s] -- Build files have been written to: /home/amenephous/df_ws/build/whisper_asr_node
+[306.283s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake /home/amenephous/df_ws/src/whisper_asr_node -DCMAKE_INSTALL_PREFIX=/home/amenephous/df_ws/install/whisper_asr_node
+[306.286s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[306.351s] [ 50%] [32mBuilding CXX object CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o[0m
+[316.225s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:34:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass WhisperASRNode[m[K’
+[316.225s]    34 | class [01;31m[KWhisperASRNode[m[K : public rclcpp::Node {
+[316.225s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[316.225s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:4:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass WhisperASRNode[m[K’
+[316.225s]     4 | class [01;36m[KWhisperASRNode[m[K : public rclcpp::Node {
+[316.225s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[316.225s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:55:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[316.225s]    55 | int [01;31m[Kmain[m[K(int argc, char * argv[]) {
+[316.225s]       |     [01;31m[K^~~~[m[K
+[316.226s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:25:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[316.226s]    25 | int [01;36m[Kmain[m[K(int argc, char * argv[]) {
+[316.226s]       |     [01;36m[K^~~~[m[K
+[319.112s] gmake[2]: *** [CMakeFiles/whisper_asr.dir/build.make:76: CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o] Error 1
+[319.112s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/whisper_asr.dir/all] Error 2
+[319.112s] gmake: *** [Makefile:146: all] Error 2
+[319.114s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8

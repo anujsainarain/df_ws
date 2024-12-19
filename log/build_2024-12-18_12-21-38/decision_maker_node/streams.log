@@ -1,0 +1,28 @@
+[0.082s] Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/decision_maker_node -- -j8 -l8
+[0.628s] [ 50%] [32mBuilding CXX object CMakeFiles/decision_maker.dir/src/decision_maker.cpp.o[0m
+[8.430s] [100%] [32m[1mLinking CXX executable decision_maker[0m
+[10.381s] [100%] Built target decision_maker
+[10.389s] Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/decision_maker_node -- -j8 -l8
+[10.412s] Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/decision_maker_node
+[10.418s] -- Install configuration: ""
+[10.501s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/decision_maker
+[10.503s] -- Set runtime path of "/home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/decision_maker" to ""
+[10.503s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/scripts
+[10.503s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/scripts/llm_inference.py
+[10.503s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/lib/decision_maker_node/scripts/llm_inference2.py
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/package_run_dependencies/decision_maker_node
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/parent_prefix_path/decision_maker_node
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/ament_prefix_path.sh
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/ament_prefix_path.dsv
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/path.sh
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/environment/path.dsv
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.bash
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.sh
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.zsh
+[10.504s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/local_setup.dsv
+[10.504s] -- Installing: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.dsv
+[10.532s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/ament_index/resource_index/packages/decision_maker_node
+[10.532s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/cmake/decision_maker_nodeConfig.cmake
+[10.532s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/cmake/decision_maker_nodeConfig-version.cmake
+[10.532s] -- Up-to-date: /home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.xml
+[10.534s] Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/decision_maker_node

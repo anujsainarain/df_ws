@@ -1,0 +1,280 @@
+[0.097s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.097s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x773f17546d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x773f175469e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x773f175469e0>>)
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amenephous/df_ws'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_maker_node) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/decision_maker_node' with type 'ros.ament_cmake' and name 'decision_maker_node'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/google_tts_node) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/google_tts_node' with type 'ros.ament_cmake' and name 'google_tts_node'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/whisper_asr_node) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/whisper_asr_node' with type 'ros.ament_cmake' and name 'whisper_asr_node'
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/amenephous/df_ws/install
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/amenephous/selfdrive_ws/install
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/amenephous/ros2_ws/install
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/amenephous/turtlebot3_ws/install
+[0.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'decision_maker_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'decision_maker_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amenephous/df_ws/build/decision_maker_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amenephous/df_ws/install/decision_maker_node', 'merge_install': False, 'path': '/home/amenephous/df_ws/src/decision_maker_node', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'google_tts_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'google_tts_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amenephous/df_ws/build/google_tts_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amenephous/df_ws/install/google_tts_node', 'merge_install': False, 'path': '/home/amenephous/df_ws/src/google_tts_node', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'whisper_asr_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'whisper_asr_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amenephous/df_ws/build/whisper_asr_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amenephous/df_ws/install/whisper_asr_node', 'merge_install': False, 'path': '/home/amenephous/df_ws/src/whisper_asr_node', 'symlink_install': False, 'test_result_base': None}
+[0.341s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amenephous/df_ws/src/decision_maker_node' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amenephous/df_ws/src/decision_maker_node'
+[0.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amenephous/df_ws/src/google_tts_node' with build type 'ament_cmake'
+[0.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amenephous/df_ws/src/google_tts_node'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amenephous/df_ws/src/whisper_asr_node' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amenephous/df_ws/src/whisper_asr_node'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/decision_maker_node -- -j8 -l8
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amenephous/df_ws/build/google_tts_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/google_tts_node -- -j8 -l8
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/decision_maker_node -- -j8 -l8
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amenephous/df_ws/build/google_tts_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/google_tts_node -- -j8 -l8
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amenephous/df_ws/build/decision_maker_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/decision_maker_node
+[0.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amenephous/df_ws/build/google_tts_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/google_tts_node
+[0.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decision_maker_node)
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amenephous/df_ws/build/decision_maker_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/decision_maker_node
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node' for CMake module files
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node' for CMake config files
+[0.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('decision_maker_node', 'cmake_prefix_path')
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/hook/cmake_prefix_path.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/hook/cmake_prefix_path.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/hook/cmake_prefix_path.sh'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/lib'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/bin'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/lib/pkgconfig/decision_maker_node.pc'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/lib/python3.10/site-packages'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/bin'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.ps1'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.sh'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.bash'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.zsh'
+[0.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amenephous/df_ws/install/decision_maker_node/share/colcon-core/packages/decision_maker_node)
+[0.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(google_tts_node)
+[0.452s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node' for CMake module files
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amenephous/df_ws/build/google_tts_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/google_tts_node
+[0.452s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node' for CMake config files
+[0.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('google_tts_node', 'cmake_prefix_path')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/hook/cmake_prefix_path.ps1'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/hook/cmake_prefix_path.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/hook/cmake_prefix_path.sh'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/lib'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/bin'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/lib/pkgconfig/google_tts_node.pc'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/lib/python3.10/site-packages'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/bin'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.sh'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.bash'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.zsh'
+[0.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amenephous/df_ws/install/google_tts_node/share/colcon-core/packages/google_tts_node)
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decision_maker_node)
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node' for CMake module files
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node' for CMake config files
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('decision_maker_node', 'cmake_prefix_path')
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/hook/cmake_prefix_path.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/hook/cmake_prefix_path.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/hook/cmake_prefix_path.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/lib'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/lib/pkgconfig/decision_maker_node.pc'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/lib/python3.10/site-packages'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/decision_maker_node/bin'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.sh'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.bash'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/decision_maker_node/share/decision_maker_node/package.zsh'
+[0.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amenephous/df_ws/install/decision_maker_node/share/colcon-core/packages/decision_maker_node)
+[0.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(google_tts_node)
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('google_tts_node', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/hook/cmake_prefix_path.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/hook/cmake_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/lib'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/bin'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/lib/pkgconfig/google_tts_node.pc'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/lib/python3.10/site-packages'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/google_tts_node/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.bash'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/google_tts_node/share/google_tts_node/package.zsh'
+[0.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amenephous/df_ws/install/google_tts_node/share/colcon-core/packages/google_tts_node)
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[4.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/whisper_asr_node
+[4.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(whisper_asr_node)
+[4.729s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node' for CMake module files
+[4.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/whisper_asr_node
+[4.729s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node' for CMake config files
+[4.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('whisper_asr_node', 'cmake_prefix_path')
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/cmake_prefix_path.ps1'
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/cmake_prefix_path.dsv'
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/cmake_prefix_path.sh'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/lib'
+[4.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('whisper_asr_node', 'ld_library_path_lib')
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/ld_library_path_lib.ps1'
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/ld_library_path_lib.dsv'
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/ld_library_path_lib.sh'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/bin'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/lib/pkgconfig/whisper_asr_node.pc'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/lib/python3.10/site-packages'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/bin'
+[4.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.ps1'
+[4.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv'
+[4.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.sh'
+[4.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.bash'
+[4.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.zsh'
+[4.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amenephous/df_ws/install/whisper_asr_node/share/colcon-core/packages/whisper_asr_node)
+[4.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(whisper_asr_node)
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node' for CMake module files
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node' for CMake config files
+[4.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('whisper_asr_node', 'cmake_prefix_path')
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/cmake_prefix_path.ps1'
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/cmake_prefix_path.dsv'
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/cmake_prefix_path.sh'
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/lib'
+[4.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('whisper_asr_node', 'ld_library_path_lib')
+[4.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/ld_library_path_lib.ps1'
+[4.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/ld_library_path_lib.dsv'
+[4.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/hook/ld_library_path_lib.sh'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/bin'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/lib/pkgconfig/whisper_asr_node.pc'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/lib/python3.10/site-packages'
+[4.755s] Level 1:colcon.colcon_core.environment:checking '/home/amenephous/df_ws/install/whisper_asr_node/bin'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.ps1'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.sh'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.bash'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.zsh'
+[4.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amenephous/df_ws/install/whisper_asr_node/share/colcon-core/packages/whisper_asr_node)
+[4.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.757s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.761s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.769s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amenephous/df_ws/install/local_setup.ps1'
+[4.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amenephous/df_ws/install/_local_setup_util_ps1.py'
+[4.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amenephous/df_ws/install/setup.ps1'
+[4.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amenephous/df_ws/install/local_setup.sh'
+[4.775s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amenephous/df_ws/install/_local_setup_util_sh.py'
+[4.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amenephous/df_ws/install/setup.sh'
+[4.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amenephous/df_ws/install/local_setup.bash'
+[4.777s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amenephous/df_ws/install/setup.bash'
+[4.778s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amenephous/df_ws/install/local_setup.zsh'
+[4.779s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amenephous/df_ws/install/setup.zsh'

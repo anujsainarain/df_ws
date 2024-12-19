@@ -1,0 +1,19 @@
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kvoid WhisperASRNode::processAudio()[m[K’:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:23:36:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KWhisperASRNode::processAudio()::whisper_init_params params[m[K’ has initializer but incomplete type
+   23 |         struct whisper_init_params [01;31m[Kparams[m[K = whisper_default_params();
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:23:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kwhisper_default_params[m[K’ was not declared in this scope; did you mean ‘[01m[Kwhisper_full_params[m[K’?
+   23 |         struct whisper_init_params params = [01;31m[Kwhisper_default_params[m[K();
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Kwhisper_full_params[m[K
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kstd::string WhisperASRNode::runTranscription(whisper_context*, const std::vector<float>&)[m[K’:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:71:65:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kwhisper_full_params whisper_full_default_params(whisper_sampling_strategy)[m[K’
+   71 |         whisper_full_params params = [01;31m[Kwhisper_full_default_params()[m[K;
+      |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:3[m[K:
+[01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:579:46:[m[K [01;36m[Knote: [m[Kdeclared here
+  579 |     WHISPER_API struct whisper_full_params   [01;36m[Kwhisper_full_default_params[m[K       (enum whisper_sampling_strategy strategy);
+      |                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/whisper_asr.dir/build.make:76: CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/whisper_asr.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

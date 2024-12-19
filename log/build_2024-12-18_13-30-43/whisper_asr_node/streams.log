@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[0.050s] [ 38%] Built target ggml-base
+[0.070s] [ 71%] Built target ggml-cpu
+[0.086s] [ 80%] Built target ggml
+[0.102s] [ 90%] Built target whisper
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target whisper_asr[0m
+[0.122s] [ 95%] [32mBuilding CXX object CMakeFiles/whisper_asr.dir/src/whisper_asr.cpp.o[0m
+[1.916s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:[m[K In member function ‘[01m[Kvoid WhisperASRNode::processAudio()[m[K’:
+[1.916s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:24:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwhisper_context* whisper_init_from_file(const char*)[m[K’ is deprecated: use whisper_init_from_file_with_params instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.916s]    24 |         struct whisper_context *ctx = [01;35m[Kwhisper_init_from_file(model_path.c_str())[m[K;
+[1.916s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.916s] In file included from [01m[K/home/amenephous/df_ws/src/whisper_asr_node/src/whisper_asr.cpp:6[m[K:
+[1.916s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:206:46:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.916s]   206 |         WHISPER_API struct whisper_context * [01;36m[Kwhisper_init_from_file[m[K(const char * path_model),
+[1.917s]       |                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.917s] [01m[K/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/src/../include/whisper.h:12:44:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KWHISPER_DEPRECATED[m[K’
+[1.917s]    12 | #    define WHISPER_DEPRECATED(func, hint) [01;36m[Kfunc[m[K __attribute__((deprecated(hint)))
+[1.917s]       |                                            [01;36m[K^~~~[m[K
+[4.170s] [100%] [32m[1mLinking CXX executable whisper_asr[0m
+[4.282s] [100%] Built target whisper_asr
+[4.305s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --build /home/amenephous/df_ws/build/whisper_asr_node -- -j8 -l8
+[4.330s] Invoking command in '/home/amenephous/df_ws/build/whisper_asr_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/whisper_asr_node
+[4.335s] -- Install configuration: "Release"
+[4.335s] -- Installing: /home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr
+[4.336s] -- Set runtime path of "/home/amenephous/df_ws/install/whisper_asr_node/lib/whisper_asr_node/whisper_asr" to ""
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/package_run_dependencies/whisper_asr_node
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/parent_prefix_path/whisper_asr_node
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.sh
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/ament_prefix_path.dsv
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.sh
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/environment/path.dsv
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.bash
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.sh
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.zsh
+[4.336s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/local_setup.dsv
+[4.337s] -- Installing: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.dsv
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/ament_index/resource_index/packages/whisper_asr_node
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig.cmake
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/cmake/whisper_asr_nodeConfig-version.cmake
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/share/whisper_asr_node/package.xml
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/libwhisper.so.1.7.2
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/libwhisper.so.1
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/libwhisper.so
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/whisper.h
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/cmake/whisper/whisper-config.cmake
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/cmake/whisper/whisper-version.cmake
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/pkgconfig/whisper.pc
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/libggml-cpu.so
+[4.337s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/libggml.so
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-cpu.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-alloc.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-backend.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-blas.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-cann.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-cuda.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-kompute.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-opt.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-metal.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-rpc.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-sycl.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/include/ggml-vulkan.h
+[4.338s] -- Up-to-date: /home/amenephous/df_ws/install/whisper_asr_node/lib/libggml-base.so
+[4.339s] Invoked command in '/home/amenephous/df_ws/build/whisper_asr_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amenephous/selfdrive_ws/install/self_driving_car_pkg:/home/amenephous/ros2_ws/install/text_to_speech:/opt/ros/humble /usr/bin/cmake --install /home/amenephous/df_ws/build/whisper_asr_node
