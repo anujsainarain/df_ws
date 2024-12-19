@@ -3,9 +3,11 @@
 <package format="3">
   <name>decision_maker_node</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="amenephous@todo.todo">amenephous</maintainer>
-  <license>TODO: License declaration</license>
+  <description>
+    A ROS 2 package for decision-making logic using LlaMa 2.
+  </description>
+  <maintainer email="anujnarain@nyu.edu">Anuj Narain</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

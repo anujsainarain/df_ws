@@ -4,6 +4,8 @@
 #include <fstream>
 #include <string>
 #include "whisper.h"
+#include <unordered_set>
+
 
 
 class WhisperASRNode : public rclcpp::Node {
@@ -16,9 +18,17 @@ public:
     }
 
 private:
+    std::unordered_set<std::string> processed_files;
     void processAudio() {
         std::string model_path = "/root/df_ws/src/whisper_asr_node/whisper_cpp/models/ggml-base.bin";
         std::string audio_path = "/root/df_ws/src/whisper_asr_node/audio/Food.wav";
+        
+        if (processed_files.count(audio_path)) {
+            // RCLCPP_INFO(this->get_logger(), "Audio file already processed: %s", audio_path.c_str());
+            rclcpp::shutdown();
+        }
+
+        processed_files.insert(audio_path);
 
         // Initializing
         struct whisper_context *ctx = whisper_init_from_file(model_path.c_str());

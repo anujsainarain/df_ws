@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  google_tts_node:
+    build:
+      context: ./src/google_tts_node
+    container_name: google_tts_node_container
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    networks:
+      - ros2_network
+
+  decision_maker_node:
+    build:
+      context: ./src/decision_maker_node
+    container_name: decision_maker_node_container
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    networks:
+      - ros2_network
+
+  whisper_asr_node:
+    build:
+      context: ./src/whisper_asr_node
+    container_name: whisper_asr_node_container
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    networks:
+      - ros2_network
+
+  
+
+networks:
+  ros2_network:
+    driver: bridge

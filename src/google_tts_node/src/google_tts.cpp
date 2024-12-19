@@ -6,8 +6,13 @@ class GoogleTTSNode : public rclcpp::Node {
 public:
     GoogleTTSNode() : Node("google_tts_node") {
         subscription_ = this->create_subscription<std_msgs::msg::String>(
+            "final_response", 10,
+            std::bind(&GoogleTTSNode::synthesizeSpeech, this, std::placeholders::_1));
+        
+        tts_subscription_ = this->create_subscription<std_msgs::msg::String>(
             "text_to_speak", 10,
             std::bind(&GoogleTTSNode::synthesizeSpeech, this, std::placeholders::_1));
+        
     }
 
 private:
@@ -24,6 +29,7 @@ private:
     }
 
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr tts_subscription_;
 };
 
 int main(int argc, char *argv[]) {
