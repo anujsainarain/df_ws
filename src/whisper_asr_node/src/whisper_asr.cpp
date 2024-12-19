@@ -17,8 +17,8 @@ public:
 
 private:
     void processAudio() {
-        std::string model_path = "/home/amenephous/df_ws/src/whisper_asr_node/whisper_cpp/models/ggml-base.bin";
-        std::string audio_path = "/home/amenephous/df_ws/src/whisper_asr_node/audio/Food.wav";
+        std::string model_path = "/root/df_ws/src/whisper_asr_node/whisper_cpp/models/ggml-base.bin";
+        std::string audio_path = "/root/df_ws/src/whisper_asr_node/audio/Food.wav";
 
         // Initializing
         struct whisper_context *ctx = whisper_init_from_file(model_path.c_str());
