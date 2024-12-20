@@ -41,3 +41,8 @@ After the nodes have finished running copy the generated audio from the `google_
     docker cp <container_id>:/root/df_ws/src/google_tts_node/output/docker_output.wav ./src/google_tts_node/output/
     ```
 Where, <container_id> is the Container ID of the google_tts_node container.
+
+
+## Miscellaneous Info
+
+The LLM used for this Task is present at :`https://drive.google.com/file/d/1MI0UPvoyLGLO2JgPjnhIOe9PsJT7qTRu/view?usp=drive_link`.
