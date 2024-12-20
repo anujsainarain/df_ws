@@ -10,7 +10,7 @@ This repository contains a ROS 2 Humble workspace (`df_ws`) designed to handle c
 ## **How to Run**
 
 1. **Git clone the repository**
-    ``bash
+    ```bash
     git clone https://github.com/anujsainarain/df_ws.git
     ```
 
