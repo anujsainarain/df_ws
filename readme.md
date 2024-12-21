@@ -14,13 +14,13 @@ This repository contains a ROS 2 Humble workspace (`df_ws`) designed to handle c
     git clone https://github.com/anujsainarain/df_ws.git
     ```
 
-1. **Build the Docker Compose Configuration**:
+2. **Build the Docker Compose Configuration**:
    ```bash
    cd ~/df_ws/
    docker-compose build
    ```
-    This 
-2. **Run the docker containers**:
+     
+3. **Run the docker containers**:
    ```bash
    docker-compose up
    ```
