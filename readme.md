@@ -23,9 +23,9 @@ This repository contains a ROS 2 Humble workspace (`df_ws`) designed to handle c
    docker-compose build
    ```
     This 
-2. **Start the docker containers**:
+2. **Run the docker containers**:
    ```bash
-   docker-compose build
+   docker-compose up
    ```
 
 Doing the above would spin the three nodes : `whisper_asr_node`, `decision_maker_node`, and `google_tts_node`
