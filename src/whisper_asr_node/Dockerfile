@@ -15,6 +15,7 @@ rm -rf src/whisper_asr_node/whisper_cpp/.git
 RUN apt-get update && apt-get install -y \
     python3-pip \
     build-essential \
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
 # Building the GGML file
