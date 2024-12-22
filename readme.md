@@ -18,14 +18,14 @@ This repository contains a ROS 2 Humble workspace (`df_ws`) designed to handle c
 Since we are utilizing the whisper_cpp's ability to carry out the STT operation, we need to manually add it as a submodule to the repository.
 
     ```bash
-    cd ~/df_ws/src/whisper_asr_node
+    cd df_ws/src/whisper_asr_node
     git clone https://github.com/ggerganov/whisper.cpp.git whisper_cpp
     rm -rf whisper_cpp/.git
     ```
 
 3. **Build the Docker Compose Configuration**:
    ```bash
-   cd ~/df_ws/
+   cd ../../
    docker-compose build
    ```
      
