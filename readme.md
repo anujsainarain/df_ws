@@ -14,13 +14,22 @@ This repository contains a ROS 2 Humble workspace (`df_ws`) designed to handle c
     git clone https://github.com/anujsainarain/df_ws.git
     ```
 
-2. **Build the Docker Compose Configuration**:
+2. **Clone the whisper_cpp repository**:
+Since we are utilizing the whisper_cpp's ability to carry out the STT operation, we need to manually add it as a submodule to the repository.
+
+    ```bash
+    cd ~/df_ws/src/whisper_asr_node
+    git clone https://github.com/ggerganov/whisper.cpp.git whisper_cpp
+    rm -rf whisper_cpp/.git
+    ```
+
+3. **Build the Docker Compose Configuration**:
    ```bash
    cd ~/df_ws/
    docker-compose build
    ```
      
-3. **Run the docker containers**:
+4. **Run the docker containers**:
    ```bash
    docker-compose up
    ```
