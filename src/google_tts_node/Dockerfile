@@ -16,6 +16,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip3 install gtts pydub
 # RUN sudo apt install ffmpeg
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
 RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build"
 
 # Sourcing and running the code

@@ -19,6 +19,8 @@ RUN pip3 install \
     gdown \
     ctransformers
 
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
 # Download model
 RUN /bin/bash models/download_model.sh
 

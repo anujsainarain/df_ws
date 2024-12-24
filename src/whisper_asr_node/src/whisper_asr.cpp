@@ -5,13 +5,19 @@
 #include <string>
 #include "whisper.h"
 #include <unordered_set>
-
+#include <filesystem> 
+namespace fs = std::filesystem;
 
 
 class WhisperASRNode : public rclcpp::Node {
 public:
     WhisperASRNode() : Node("whisper_asr_node") {
         publisher_ = this->create_publisher<std_msgs::msg::String>("recognized_speech", 10);
+
+        subscription_ = this->create_subscription<std_msgs::msg::String>(
+            "/audio_file", 10,
+            std::bind(&WhisperASRNode::setAudioFile, this, std::placeholders::_1));
+
         timer_ = this->create_wall_timer(
             std::chrono::seconds(10),
             std::bind(&WhisperASRNode::processAudio, this));
@@ -19,10 +25,80 @@ public:
 
 private:
     std::unordered_set<std::string> processed_files;
+    std::string model_path = "/root/df_ws/src/whisper_asr_node/whisper_cpp/models/ggml-base.bin";
+    std::string audio_dir = "/root/df_ws/src/whisper_asr_node/audio";
+    std::string audio_path;
+
+    void setAudioFile(const std_msgs::msg::String::SharedPtr msg) {
+        // std::string file_path = msg->data;
+        std::string file_path = audio_dir + "/" + msg->data + ".wav";
+        if (fs::exists(file_path) && fs::path(file_path).extension() == ".wav") {
+            audio_path = file_path;
+            RCLCPP_INFO(this->get_logger(), "Audio file set to: %s", audio_path.c_str());
+        } else {
+            RCLCPP_ERROR(this->get_logger(), "Invalid file path: %s", file_path.c_str());
+        }
+    }
+
     void processAudio() {
-        std::string model_path = "/root/df_ws/src/whisper_asr_node/whisper_cpp/models/ggml-base.bin";
-        std::string audio_path = "/root/df_ws/src/whisper_asr_node/audio/Food.wav";
+        // std::string model_path = "/root/df_ws/src/whisper_asr_node/whisper_cpp/models/ggml-base.bin";
+        // std::string audio_path = "/root/df_ws/src/whisper_asr_node/audio/Food.wav";
+        // std::string audio_dir = "/root/df_ws/src/whisper_asr_node/audio";
+        std::vector<std::string> wav_files;
         
+        for (const auto &entry : fs::directory_iterator(audio_dir)) {
+            if (entry.path().extension() == ".wav") {
+                wav_files.push_back(entry.path().string());
+            }
+        }
+
+        // No .wav files
+        if (wav_files.empty()) {
+            RCLCPP_INFO(this->get_logger(), "No .wav files found.");
+            return;
+        }
+
+        // One .wav file is present
+        if (wav_files.size() == 1) {
+            audio_path = wav_files[0];
+        } 
+
+         // Check if an audio file is selected
+        if (audio_path.empty()) {
+            RCLCPP_INFO(this->get_logger(), "waiting at /audio_file topic.");
+            return;
+        }
+        
+
+
+        // One .wav file is present
+        // if (wav_files.size() == 1) {
+        //     audio_path = wav_files[0];
+        // } 
+        // else { // Show all .wav preesent
+        //     RCLCPP_INFO(this->get_logger(), "Present .wav files:");
+        //     for (size_t i = 0; i < wav_files.size(); ++i) {
+        //         RCLCPP_INFO(this->get_logger(), "[%zu] %s", i + 1, wav_files[i].c_str());
+        //     }
+
+        //     // Display audio files
+        //     std::cout << "Audio files:" << std::endl;
+        //     for (size_t i = 0; i < wav_files.size(); ++i) {
+        //         std::cout << (i + 1) << ". " << wav_files[i] << std::endl;
+        //     }
+        //     // To choose one
+        //     int choice = 0;
+        //     do {
+        //         std::cout << "Which Audio file? Please pick from 1-" << wav_files.size() << ". Your choice is: ";
+        //         std::cin >> choice;
+        //         if (choice < 1 || choice > wav_files.size()) {
+        //             RCLCPP_ERROR(this->get_logger(), "Invalid choice. Try again.");
+        //         }
+        //     } while (choice < 1 || choice > wav_files.size());
+
+        //     audio_path = wav_files[choice - 1];
+        // }
+
         if (processed_files.count(audio_path)) {
             // RCLCPP_INFO(this->get_logger(), "Audio file already processed: %s", audio_path.c_str());
             rclcpp::shutdown();
@@ -45,7 +121,7 @@ private:
             return;
         }
 
-        // Transcribingthe audio
+        // Transcribing the audio
         std::string transcription = runTranscription(ctx, audio_data);
 
         // Publishing the transcribed audio
@@ -97,6 +173,7 @@ private:
     }
 
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
     rclcpp::TimerBase::SharedPtr timer_;
 };
 

@@ -18,6 +18,8 @@ RUN apt-get update && apt-get install -y \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
 # Building the GGML file
 RUN mkdir -p whisper_cpp/models && \
     wget -P whisper_cpp/models https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin
