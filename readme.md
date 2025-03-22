@@ -1,4 +1,4 @@
-# DF Assignment
+# DF Workspace
 
 This repository contains a ROS 2 Humble workspace (`df_ws`) designed to handle conversational AI tasks using Docker containers. The system comprises three main nodes:
 - **Whisper ASR Node**: Handles audio transcription.
