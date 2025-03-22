@@ -77,5 +77,3 @@ Where, <container_id> is the Container ID of the google_tts_node container.
 ## Miscellaneous Info 
 
 The LLM used for this Task is present at :`https://drive.google.com/file/d/1MI0UPvoyLGLO2JgPjnhIOe9PsJT7qTRu/view?usp=drive_link`.
-
-![DF Logo](DF_logo.png)
